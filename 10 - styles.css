@@ -1,0 +1,20 @@
+/* Box-Sizing */
+
+* {
+    /* Borde-box - nao almenta a caixa e comprime o conteudo */
+    box-sizing: border-box;
+    /* content-box - sobre o tamanho da caixa de acordo com o que e colococado */
+
+}
+
+
+
+.box {
+
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background: #ff1493;
+    border: 10px solid #00f;
+
+}

@@ -1,0 +1,61 @@
+/* 
+    UNIDADE DE MEDIDAS
+
+        -> ABSOLUTAS:
+            1 POLEGADA = 2,54Cm /100 = 0.254mm
+            PX - (PIXELS) 1/100 = POLEGADA 0.254mm
+            IN (INCHES/POLEGADAS)
+            CM / MM (CENTIMENTRO / MILIMETRO)
+
+
+        ->RELATIVA:
+
+            %CALCULA O TAMENHO RELATIVO AO ELEMENTO PAI
+            VW (VIEW WIDTH) 1vw E 1% DA LARGURA DA JANELA DO NAVEGADO
+            VH (VIEW HEIGHT) 1vh E 1% DA ALTURA DA JANELA DO NAVEGADO
+            EM E UMA UNIDADE RELATIVA AO ELEMENTO PAI
+            REM E UMA UNIDADE RELATIVA AO ELEMENTO RAIZ
+        
+*/
+/* polegada / pixels
+h1{
+ font-size: 16px;
+} */
+
+/* -------------------------------------- */
+/* Unidades Relativas */
+/* -------------------------------------- */
+
+/* .vo{
+    
+}
+
+.pai{
+    font-size: 16px; tamanho real
+
+}
+
+.filho{
+    font-size: 100%; relativo ao pai
+} */
+
+vo{
+    font-size: 16px;
+}
+/* EM - Pega o valor do PAI */
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: blue;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+/* REM - sempre pega do root (vo) */
+.filho{
+    font-size: 50%;
+    height: 50%;
+    background: red;
+    color:#ffffff;
+    font-size: 2rem;
+}

@@ -1,0 +1,22 @@
+/* Css - Cores */
+
+/* RGB - Red - Green e Blue */
+
+h1 {
+    background: rgb(151, 9, 228);
+}
+
+
+/* Hexadecimal
+Decima (10) => 0,1,2,3,4,5,6,7,8,9
+Hexadecimal (16) => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+10,11,12,13,14,15,16,17,18,19,1A,1B,1C,1D,1E,1F */
+
+/* Hexadecimal */
+
+h1 {
+    background: #f0f;
+}
+/* sites
+w3scool
+color.adobe.com */

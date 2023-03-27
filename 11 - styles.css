@@ -1,0 +1,57 @@
+
+ /* ***Tipos de Display***
+ - Block
+ - Inline
+ - Inline block
+
+ - Grid
+ - Flex */
+
+
+ .box {
+
+    background: #ff1395;
+    height: 50px;
+    width: 50px;
+
+}
+
+.box-2 {
+
+    background: #ffff04;
+
+}
+
+.box-3 {
+
+    background: #0000ff;
+}
+
+/*          ****Display - BLOCK****
+---A linha e so dele (nada entra na mesma linha---
+Vem como padrao: div, sextor, p (paragrafo) h1,2,(titulos) - ul, li, article */
+
+/* Ocupa 100% da largura do elemento (pai)
+Sempre ocupa toda a sua linha
+Altura definida de acordo com o conteudo
+Podemos defiHEIGHT e WIDTH
+Podemos definir valores de margin */
+
+
+/* ----------------------------------------------------- */
+ /*     ***Display - Inline*** 
+---Ele e em linha coloca uma div ao lado da outra---
+ Vem como padrão a, span, b, i ...
+
+ Elementos  em linha.
+Não permite alterar height e width;
+Não podemos definir valores de margin top ou bottom 
+Ganha comportamento de uma palavra */
+
+
+/* ----------------------------------------------------- */
+/*          ***Inline - Block***
+---E a mistura de Inline e Block--- pode usar os 2 recursos
+
+Elementos em linha, porem com caracteristica do Displau Block;
+Altura e largura podem ser alteradas. */

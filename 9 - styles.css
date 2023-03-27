@@ -1,0 +1,47 @@
+.box {
+
+width: 50px; /*largura*/
+height: 50px;  /*altura*/
+background: #ff1493; /* cordo fundo*/
+
+/* padding: 50px; Faz crescer a caixa num todo */ 
+/* margin: 20px; coloca margem - todos os lados */
+
+/* tipos de margens */
+margin-top: 20px; /*Coloca margem na parte de cima somente */
+margin-bottom: 30px; /* colocar margem em cima*/
+margin-right: 10px; /* coloca margem do lado diretito*/
+margin-left: 5px; /* coloca margem lado esquerdo*/ 
+
+/* Atalho do relogio Margin */
+margin: 10px 50px 30px 5px; 
+/*      12hs 15hs 18hs 21hs*/
+
+/* se colocar 3 valores ele repete o valo na sequencia  (lateral)
+margin: 10px    50px       40px;
+        CIMA   Lateral     baixo
+
+/* padding - cresce interno
+Margim externo */
+
+}
+
+.box-2 {
+
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 5px;
+
+    /* Atalho do relogio Padding */
+padding: 10px 50px 30px 5px;
+/*      12hs 15hs 18hs 21hs*/
+
+/* Se colocar 2 valores repete a sequencia
+1º valor cima e baixo 2º valor laterais
+padding: 10px 50px;    */
+
+}

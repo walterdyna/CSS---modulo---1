@@ -1,0 +1,83 @@
+/* Folha de estilo em cascata = CSS */
+/* Css vai considerar a ultima informação dada ao item */
+
+
+/* Seletores :
+* {} - seleciona tudo */
+/* Class ( Classe) - IGUAL CEP - varios elementos no mesmo CEP */
+/* id (iDENTIFICADOR UNICO) - como um cpf  - unico por pessoa */
+/* obrigatorio usar ;;;;; */
+
+/* EX: 01
+
+h1 { 
+    color: darkcyan;
+    background: black;
+    }
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+button {
+    background: green;
+    border-color: darkgreen;
+} */
+
+/* style por ID - como CPF*/
+#titulo{
+    color: violet;
+    font-size:  55px;
+}
+
+/* #paragrafo {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao {
+    background: green;
+}
+
+#outro-botao {
+    background: chocolate;
+} */
+
+
+/* style como Classe - Igual - CEP - muita gente na mesma rua */
+
+/* .texto{
+    color: red;
+    font-weight: bold;
+}
+    
+.botao {
+    background: blue;
+} */
+
+/* ou
+
+texto, botao, p, # ID */
+
+
+
+/* Css - Cores */
+
+/* RGB - Red - Green e Blue */
+
+/* h1 {
+    color: rgb(43, 30, 50);
+} */
+
+/* Hexadecimal
+Decima (10) => 0,1,2,3,4,5,6,7,8,9
+Hexadecimal (16) => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+10,11,12,13,14,15,16,17,18,19,1A,1B,1C,1D,1E,1F */
+
+h1 {
+    background: #ff00ff;
+}
+
+

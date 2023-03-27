@@ -1,0 +1,13 @@
+
+
+h1 {
+    color: red;
+    background: black;
+}
+
+h1 {
+    color: blue;
+}
+
+/* O CSS sempre vai pegar a ultima informação escrita no codigo
+no nosso caso AZUL */

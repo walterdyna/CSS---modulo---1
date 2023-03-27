@@ -1,0 +1,81 @@
+/* ----------------------------------------- */
+/* Seletor de tudo (tudo na pagima) */
+/* ----------------------------------------- */
+/* * {
+    background: blue;
+} */
+/* ----------------------------------------- */
+/* Primeiro Seletor */
+/* ----------------------------------------- */
+/* h1 {
+    color: red;
+    background: black;
+}
+
+p {
+color: blue;
+font-size: 20px;
+}
+
+button {
+    background: green;
+    border-color: aquamarine;
+} */
+
+
+/* ----------------------------------------- */
+/* id (iDENTIFICADOR UNICO) - como um cpf  - unico por pessoa */
+/* -----------------------------------------
+#tiyulo {
+    color: red;
+    font-size: 20px;
+}
+
+#paragrafo {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao {
+    background: green;
+}
+
+#outro-botao {
+    background: chocolate;
+} */
+
+
+/* ----------------------------------------- */
+/* Class ( Classe) - IGUAL CEP - varios elementos no mesmo CEP
+.texto {
+    color: blue;
+}
+
+.paragrafo {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.botao {
+    background: fuchsia;
+    color: brown;
+}
+
+.outro-botao {
+    background: rgb(14, 219, 123);
+    color: royalblue;
+} */
+
+/* ----------------------------------------- */
+/* Concatenação de classes */
+
+.texto, #paragrafo {
+    color: blueviolet;
+    background: aqua;
+}
+
+.outro-botao, button {
+    color: cadetblue;
+    background: blue;
+}
